@@ -86,17 +86,27 @@ ul {
   }
   #headshot {
     max-width: 50vw;
-    margin: 5% 10%;
+    margin: 5% 5%;
   }
   #bio {
-    max-width: 80vw;
-    margin: 10%;
+    max-height: fit-content;
+    max-width: 90vw;
+    margin: 5%;
     margin-top: 0;
-    font-size: 1.25rem;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
   }
   #footer {
     padding-top: 1em;
     font-size: 1em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2rem;
   }
 }
 
