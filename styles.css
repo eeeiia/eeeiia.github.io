@@ -55,9 +55,14 @@ body::-webkit-scrollbar {
   overflow: scroll;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 p {
   padding-top: -1em;
   line-height: 1.25em;
+  font-size: 1rem;
 }
 
 ul {
@@ -87,6 +92,7 @@ ul {
     max-width: 80vw;
     margin: 10%;
     margin-top: 0;
+    font-size: 1.25rem;
   }
   #footer {
     padding-top: 1em;
